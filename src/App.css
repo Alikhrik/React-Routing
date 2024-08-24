@@ -13,6 +13,11 @@ nav li {
 
 nav li a {
   text-decoration: none;
+  color: black;
+}
+
+nav li a:hover {
+  color: red;
 }
 
 nav li:nth-child(n+2) {
@@ -31,4 +36,12 @@ nav li:nth-child(n+2) {
 .body > div {
   font-size: 2em;
   padding: 10px;
+}
+
+.nav-btn {
+  cursor: pointer;
+}
+
+.nav-btn:hover {
+  color: red;
 }
